@@ -1,6 +1,8 @@
 .footer {
   text-align: center;
   color: #9d9ea0;
+  margin-top: -20px;
+  font-size: 14px;
 }
 .link {
   color: black;

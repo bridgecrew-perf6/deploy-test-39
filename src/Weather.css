@@ -7,15 +7,21 @@
   max-width: 800px;
 }
 .form-border {
-  padding-left: 10px;
   padding-top: 10px;
 }
 .btn-border {
   margin-top: 10px;
-  padding-right: 5px;
 }
 .btn {
-  max-width: 200px;
+  background-color: #d2d4d6;
+  border: 1px solid #d2d4d6;
+}
+.btn:hover {
+  background-color: #9d9ea0 !important;
+  border: 1px solid #9d9ea0;
+}
+.search {
+  margin: 10px auto;
 }
 .weather-image-temp {
   padding-left: 30px;
@@ -23,14 +29,21 @@
 }
 .weather-image {
   margin-top: -35px;
+  height: 64px;
+  width: 64px;
 }
-.temp {
+.Weather .temp {
   padding-left: 10px;
   padding-top: 10px;
-  font-size: 60px;
+  font-size: 64px;
+  font-weight: lighter;
 }
-.cel-fah {
-  padding-left: 55px;
+.unit {
+  font-size: 16px;
+  position: relative;
+  top: -34px;
+  margin-left: 5px;
+  line-height: 1;
 }
 .weather-info {
   text-align: left;
