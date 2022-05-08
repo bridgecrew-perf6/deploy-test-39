@@ -29,13 +29,13 @@
 }
 .weather-image {
   margin-top: -35px;
-  height: 64px;
-  width: 64px;
+  height: 60px;
+  width: 60px;
 }
 .Weather .temp {
   padding-left: 10px;
   padding-top: 10px;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: lighter;
 }
 .unit {

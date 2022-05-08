@@ -10,7 +10,7 @@ export default function WeatherInfo(props) {
           <div className="clearfix">
             <img
               className="weather-image "
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              src={props.data.iconUrl}
               alt={props.data.description}
             />
             <span className="temp">{Math.round(props.data.temperature)}</span>
