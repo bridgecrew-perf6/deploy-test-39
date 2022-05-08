@@ -28,22 +28,30 @@
   padding-top: -10px;
 }
 .weather-image {
-  margin-top: -35px;
+  margin-top: -30px;
   height: 60px;
   width: 60px;
 }
 .Weather .temp {
   padding-left: 10px;
-  padding-top: 10px;
+  margin-top: 5px;
   font-size: 60px;
   font-weight: lighter;
 }
 .unit {
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   top: -34px;
-  margin-left: 5px;
+  margin-left: 0px;
   line-height: 1;
+}
+.fahrenheit {
+  text-decoration: none;
+  color: black;
+}
+.fahrenheit:hover {
+  text-decoration: none;
+  color: #677970;
 }
 .weather-info {
   text-align: left;
