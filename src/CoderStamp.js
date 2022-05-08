@@ -12,6 +12,16 @@ export default function CoderStamp() {
       >
         {" "}
         open-sourced on GitHub
+      </a>{" "}
+      and{" "}
+      <a
+        className="link"
+        href="https://cerulean-puffpuff-e6565b.netlify.app"
+        target="blank"
+        rel="noreferrer"
+      >
+        {" "}
+        hosted on Netlify
       </a>
     </footer>
   );
